@@ -38,7 +38,7 @@ Start → onClick → switch → key_equals_btn → switch_symbol → multiply �
 
 **Edge Coverage for CFG Graph**
 
-*Test Requirements:* 
+*Test Requirements:* <br>
 Start to onClick <br>
 onClick to switch <br>
 switch to each case (key_0_btn to key_9_btn, key_add_btn, key_sub_btn, key_div_btn, key_mult_btn, key_clear_btn, key_equals_btn) <br>

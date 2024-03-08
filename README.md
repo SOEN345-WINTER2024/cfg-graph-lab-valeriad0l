@@ -4,7 +4,7 @@ CFG graph for onClick() method in* https://github.com/BradTeachesCode/BasicCalcu
 
 *Step 2* <br>
 
-**Node Coverage for CFG Graph:** 
+**Node Coverage for CFG Graph** 
 
 *Test Requirements:* <br>
 -Start (Entry point) <br>
@@ -61,3 +61,12 @@ Start → onClick → switch → key_equals_btn → switch_symbol → plus → R
 Start → onClick → switch → key_equals_btn → switch_symbol → minus → Reset → End <br>
 Start → onClick → switch → key_equals_btn → switch_symbol → divide → Reset → End <br>
 Start → onClick → switch → key_equals_btn → switch_symbol → multiply → Reset → End <br>
+
+*Step 4* <br>
+
+**Edge-Pair Coverage for CFG Graph**
+
+Start to onClick to switch
+switch to each case and back to the end or next decision point
+For key_equals_btn: switch to key_equals_btn, key_equals_btn to switch_symbol, and then switch_symbol to each case (plus, minus, divide, multiply)
+Each case within switch_symbol to Reset, and Reset to End

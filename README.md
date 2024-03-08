@@ -1,6 +1,6 @@
 *Step 1*
 
-CFG graph for onClick() method in* https://github.com/BradTeachesCode/BasicCalculator/blob/master/BasicCalculator/app/src/main/java/com/bradteachescode/basiccalculator/MainActivity.java 
+CFG graph for onClick() method in https://github.com/BradTeachesCode/BasicCalculator/blob/master/BasicCalculator/app/src/main/java/com/bradteachescode/basiccalculator/MainActivity.java 
 
 *Step 2* <br>
 
@@ -66,7 +66,7 @@ Start → onClick → switch → key_equals_btn → switch_symbol → multiply �
 
 **Edge-Pair Coverage for CFG Graph**
 
-Start to onClick to switch
-switch to each case and back to the end or next decision point
-For key_equals_btn: switch to key_equals_btn, key_equals_btn to switch_symbol, and then switch_symbol to each case (plus, minus, divide, multiply)
-Each case within switch_symbol to Reset, and Reset to End
+Start to onClick to switch  <br>
+switch to each case and back to the end or next decision point  <br>
+For key_equals_btn: switch to key_equals_btn, key_equals_btn to switch_symbol, and then switch_symbol to each case (plus, minus, divide, multiply)  <br>
+Each case within switch_symbol to Reset, and Reset to End  <br>

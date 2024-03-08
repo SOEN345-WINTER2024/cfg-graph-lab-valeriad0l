@@ -6,6 +6,7 @@ CFG graph for onClick() method in* https://github.com/BradTeachesCode/BasicCalcu
 **Node Coverage for CFG Graph:** 
 
 *Test Requirements:*
+
 -Start (Entry point)
 -onClick (Method entry)
 -switch (Decision based on view.getId())

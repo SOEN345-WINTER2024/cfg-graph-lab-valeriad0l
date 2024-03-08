@@ -2,6 +2,8 @@
 
 CFG graph for onClick() method in https://github.com/BradTeachesCode/BasicCalculator/blob/master/BasicCalculator/app/src/main/java/com/bradteachescode/basiccalculator/MainActivity.java 
 
+![Untitled Diagram-Page-3 drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-valeriad0l/assets/91857937/49fbfd0e-e587-40ae-9eb1-dccaa883a627)
+
 *Step 2* <br>
 
 **Node Coverage for CFG Graph** 

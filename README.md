@@ -6,7 +6,7 @@ CFG graph for onClick() method in* https://github.com/BradTeachesCode/BasicCalcu
 
 **Node Coverage for CFG Graph:** 
 
-*Test Requirements:*
+*Test Requirements:* <br>
 -Start (Entry point) <br>
 -onClick (Method entry) <br>
 -switch (Decision based on view.getId()) <br>
@@ -19,7 +19,7 @@ CFG graph for onClick() method in* https://github.com/BradTeachesCode/BasicCalcu
 -Reset (Resetting values) <br>
 -End (Exit point) <br>
 
-*Paths:* 
+*Paths:* <br>
 Start → onClick → switch → key_0_btn → End <br>
 Start → onClick → switch → key_1_btn → End <br>
 ... <br>

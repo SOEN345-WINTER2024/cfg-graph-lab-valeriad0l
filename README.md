@@ -7,7 +7,7 @@ CFG graph for onClick() method in* https://github.com/BradTeachesCode/BasicCalcu
 
 *Test Requirements:*
 
--Start (Entry point)
+-Start (Entry point) <br>
 -onClick (Method entry)
 -switch (Decision based on view.getId())
 -key_0_btn to key_9_btn (Cases for number buttons)

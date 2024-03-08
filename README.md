@@ -47,3 +47,17 @@ switch_symbol to each case (plus, minus, divide, multiply) <br>
 Each case within switch_symbol to Reset <br>
 Reset to End <br>
 
+*Paths:* <br>
+Start → onClick → switch → key_0_btn → End <br>
+Start → onClick → switch → key_1_btn → End <br>
+... <br>
+Start → onClick → switch → key_9_btn → End <br>
+Start → onClick → switch → key_add_btn → End <br>
+Start → onClick → switch → key_sub_btn → End <br>
+Start → onClick → switch → key_div_btn → End <br>
+Start → onClick → switch → key_mult_btn → End <br>
+Start → onClick → switch → key_clear_btn → End <br>
+Start → onClick → switch → key_equals_btn → switch_symbol → plus → Reset → End <br>
+Start → onClick → switch → key_equals_btn → switch_symbol → minus → Reset → End <br>
+Start → onClick → switch → key_equals_btn → switch_symbol → divide → Reset → End <br>
+Start → onClick → switch → key_equals_btn → switch_symbol → multiply → Reset → End <br>

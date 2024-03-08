@@ -7,7 +7,6 @@ CFG graph for onClick() method in* https://github.com/BradTeachesCode/BasicCalcu
 **Node Coverage for CFG Graph:** 
 
 *Test Requirements:*
-
 -Start (Entry point) <br>
 -onClick (Method entry) <br>
 -switch (Decision based on view.getId()) <br>
@@ -34,3 +33,17 @@ Start → onClick → switch → key_equals_btn → switch_symbol → plus → R
 Start → onClick → switch → key_equals_btn → switch_symbol → minus → Reset → End <br>
 Start → onClick → switch → key_equals_btn → switch_symbol → divide → Reset → End <br>
 Start → onClick → switch → key_equals_btn → switch_symbol → multiply → Reset → End <br>
+
+*Step 3* <br>
+
+**Edge Coverage for CFG Graph**
+
+*Test Requirements:* 
+Start to onClick <br>
+onClick to switch <br>
+switch to each case (key_0_btn to key_9_btn, key_add_btn, key_sub_btn, key_div_btn, key_mult_btn, key_clear_btn, key_equals_btn) <br>
+Each case back to the end or next decision point (for key_equals_btn, it goes to switch_symbol) <br>
+switch_symbol to each case (plus, minus, divide, multiply) <br>
+Each case within switch_symbol to Reset <br>
+Reset to End <br>
+

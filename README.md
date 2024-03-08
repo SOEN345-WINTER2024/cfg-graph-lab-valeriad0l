@@ -1,5 +1,5 @@
 # Lab 7
-# By Valeria Dolgaliova (40212218)
+By Valeria Dolgaliova (40212218)
 
 *Step 1*
 
